@@ -16,15 +16,14 @@ public class Main {
         courseAngular.setDescription("Potencialize o uso de HTML, CSS e JS com esse poderoso framework");
         courseAngular.setGradeTime(16);
 
-        System.out.println(courseJava);
-
-        System.out.println(courseAngular);
-
         Mentorship mentoriaGIT = new Mentorship();
         mentoriaGIT.setTitle("Mentoria de GIT");
         mentoriaGIT.setDescription("Melhorando seus estudos a partir do versionamento de código");
         mentoriaGIT.setDate(LocalDate.now());
 
+
+        System.out.println(courseJava);
+        System.out.println(courseAngular);
         System.out.println(mentoriaGIT);
     }
 }
